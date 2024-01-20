@@ -43,7 +43,7 @@ Remember that the API might take some time to fetch the data so the front end wi
 
 ## Screenshots
 
-![Loading Page](https://github.com/KPkm25/amazon-web-scraper/blob/master/scraper/amazon1.png/?raw="true")
+![Loading Page](https://github.com/KPkm25/amazon-web-scraper/blob/master/amazon1.png/?raw="true")
 
-![Home Page](https://github.com/KPkm25/amazon-web-scraper/blob/master/scraper/amazon.png?raw="true")
+![Home Page](https://github.com/KPkm25/amazon-web-scraper/blob/master/amazon.png?raw="true")
 
