@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+    font-family: "Poppins", sans-serif;
+    color: rgb(50, 42, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .app {
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .container {
+    border-radius: 50px;
+    background: radial-gradient(circle, rgb(236, 236, 236) 0%, rgb(255, 255, 255) 80%);
+    padding: 60px 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px; /* Add some space below the header */
+  }
+  
+  h1 {
+    margin-right: 10px; /* Add some space between DealFinder and the logo */
+  }
+  
+  img.logo {
+    height: 110px; /* Set the height of the logo */
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .feed {
+    /* New CSS: Grid Layout with 4 columns (Responsive) */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Use 4 columns */
+    grid-gap: 20px;
+    justify-items: center;
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .feed {
+      grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on smaller screens */
+    }
+  }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Hide any overflowing content */
+    position: relative;
+  }
+  
+  .img-container {
+    flex: 1;
+    max-height: 200px; /* Set the maximum height for the images */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Preserve aspect ratio and fit within the container */
+  }
+  .strikethrough {
+    text-decoration: line-through;
+  }
+
+  .percentage-banner {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
